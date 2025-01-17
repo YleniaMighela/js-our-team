@@ -1,3 +1,6 @@
+// Dato un array di oggetti rappresentate un team di un’azienda, creare una pagina dedicata in cui mostrare una card per ciascun componente.
+
+//  array contenente oggetti che rappresenta un team di un'azienda attraverso proprietà diverse
 const teamMembers = [
   {
     name: "Marco Bianchi",
@@ -37,3 +40,15 @@ const teamMembers = [
   }
 ];
 // console.log(teamMembers);
+
+
+// estrapolo dall'array ogni singolo oggetto
+
+
+// ad ogni oggetto andrò a ricavarmi le proprietà appartenenti
+
+
+// creo una variabile inizialmente vuota, che poi attraverso un ciclo for sarà riempita da dall'oggetto contente le varie proprietà
+
+
+//  mi prendo l'elemento dall'HTML che mi servirà per inserirgli le proprietà
