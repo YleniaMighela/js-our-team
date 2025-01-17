@@ -100,4 +100,4 @@ for(let i = 0; i < teamMembers.length; i++) {
 //  mi prendo l'elemento dall'HTML che mi servirà per inserirgli le proprietà
   const contenitoreCard = document.querySelector ('.container-card');
 
-  contenitoreCard.innerHTML = proprietàMembro;
+  contenitoreCard.innerHTML = proprietaMembro;
