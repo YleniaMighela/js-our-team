@@ -44,7 +44,7 @@ const teamMembers = [
 
 // CREO UNA VARIABILE INIZIALMENTE VUOTA, CHE POI ATTRAVERSO IL CICLO FOR SARà RIEMPITA DALL'OGGETTO CONTENENTE LE VARIE PROPRIETà
 
-let proprietàMembro = '';
+let proprietaMembro = '';
 
 
 
@@ -72,7 +72,7 @@ for(let i = 0; i < teamMembers.length; i++) {
 
   // richiamo la variabile vuota che attraverso il ciclo for sarà riempita dall'oggetto contento le singole proprietà 
   
-  proprietàMembro += `
+  proprietaMembro += `
   
   <div class="card mb-3" style="max-width: 540px;">
                 <div class="row g-0">
@@ -90,31 +90,11 @@ for(let i = 0; i < teamMembers.length; i++) {
   
   `
   
-  console.log(proprietàMembro);
+  console.log(proprietaMembro);
   
-  
-  
-  
-  
-  
-  
+
   
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 //  mi prendo l'elemento dall'HTML che mi servirà per inserirgli le proprietà
