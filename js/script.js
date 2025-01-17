@@ -43,19 +43,53 @@ const teamMembers = [
 
 
 
-// creo un ciclo for per estrapolare dall'array ogni singolo oggetto
+//CREO UN CICLO FOR PER ESTRAPOLARE DALL'ARRAY OGNI SINGOLO OGGETTO 
 
 for(let i = 0; i < teamMembers.length; i++) {
   
-    //  creo una variabile per ricavare la posizione dell'oggetto nell'array
-    
-    let membro = teamMembers[i];
-    console.log(membro);
+  //  creo una variabile per ricavare la posizione dell'oggetto nell'array
+  
+  let membro = teamMembers[i];
+  // console.log(membro);
+  
+  
+  
+  // AD OGNI OGGETTO ANDRò A RICAVARMI LE PROPRIETà APPARTENTENTI
+  
+  // creo una costante in cui attraverso la DESTRUTTURAZIONE mi estrapola la proprietà dal singolo oggetto
+
+  const { name, role, email, img } = membro;  
+  console.log(name, role, email, img);
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 };
 
 
 
-// ad ogni oggetto andrò a ricavarmi le proprietà appartenenti
+
+
+
+
+
+
+
+
+
 
 
 // creo una variabile inizialmente vuota, che poi attraverso un ciclo for sarà riempita da dall'oggetto contente le varie proprietà
