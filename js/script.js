@@ -42,7 +42,17 @@ const teamMembers = [
 // console.log(teamMembers);
 
 
-// estrapolo dall'array ogni singolo oggetto
+
+// creo un ciclo for per estrapolare dall'array ogni singolo oggetto
+
+for(let i = 0; i < teamMembers.length; i++) {
+  
+    //  creo una variabile per ricavare la posizione dell'oggetto nell'array
+    
+    let membro = teamMembers[i];
+    console.log(membro);
+};
+
 
 
 // ad ogni oggetto andrò a ricavarmi le proprietà appartenenti
